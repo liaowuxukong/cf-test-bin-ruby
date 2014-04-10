@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/usr/bin/env ruby
 
 cat <<EOF
 ---
 default_process_types:
-  web: python boot.py /
+  web: ruby boot.rb /
 EOF
 
