@@ -1,2 +1,5 @@
-#!/usr/bin/env ruby
-puts "in compile.rb file"
+#!/usr/bin/env bash
+
+echo "HOME=$HOME"
+
+ls -l $HOME 
