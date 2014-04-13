@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo 'in compile file'
+
 echo "HOME=$HOME"
 
 echo '---------------------'
