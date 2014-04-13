@@ -8,9 +8,17 @@ echo '---------------------'
 env
 echo '---------------------'
 
-$BUILD_DIR=$1
+BUILD_DIR=$1
 echo "build_dir = $BUILD_DIR"
 
+cat > "$BUILD_DIR/boot.sh" <<EOF
+#!/usr/bin/env bash
+
+echo '------boot.sh-------'
+env
+echo '--------------------'
+
+EOF
 
 
 
