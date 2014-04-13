@@ -9,3 +9,19 @@ env
 echo '---------------------'
 
 ls -l $HOME 
+
+$BUILD_DIR=$1
+
+cat > "$BUILD_DIR/boot.sh" <<EOF
+#!/usr/bin/env bash
+
+
+echo '------boot.sh-------'
+env
+echo '--------------------'
+
+EOF
+
+
+
+
