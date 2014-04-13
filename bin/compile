@@ -2,4 +2,8 @@
 
 echo "HOME=$HOME"
 
+echo '---------------------'
+env
+echo '---------------------'
+
 ls -l $HOME 
